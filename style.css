@@ -1,0 +1,105 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.background {
+  background: url("fb.png") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.background {
+  background: url("C:\Users\dell\Pictures\fb1.webp") no-repeat center center fixed;
+  background-size: cover;
+  background: linear-gradient(to bottom, #3b5998, #8b9dc3);
+}
+
+
+.login-box {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  padding: 30px 40px;
+  width: 350px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.logo {
+  font-size: 36px;
+  color: #1877f2;
+  margin-bottom: 10px;
+}
+
+.tabs {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.tabs span {
+  cursor: pointer;
+  color: #1877f2;
+  font-weight: bold;
+}
+
+.tabs .active {
+  text-decoration: underline;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.options {
+  text-align: left;
+  margin: 10px 0;
+  font-size: 12px;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #4267b2;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #365899;
+}
+
+.forgot {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.forgot a {
+  color: #1877f2;
+  text-decoration: none;
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.hidden {
+  display: none;
+}
